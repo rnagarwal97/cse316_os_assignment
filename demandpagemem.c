@@ -14,6 +14,8 @@ Ques.
 #include<stdlib.h>
 
 int main(){
+	
+	// informations given in problem statement
 	double pfst_nonmodified = 8000000; // page fault service time for modified page in ns
 	double pfst_modified = 20000000; // // page fault service time for non modified page in ns
 	double mem_acc_time = 100; // memory access time in ns
@@ -30,6 +32,14 @@ int main(){
 	double eat_minus_mat =  eff_acc_time - mem_acc_time;
 	double tpsft_minus_mat = total_pfst - mem_acc_time;
 	double page_fault_rate = eat_minus_mat/tpsft_minus_mat;
+	
+	// printing results
+	printf("Page fault service time for non modified page: %.2lf\n", pfst_nonmodified);
+	printf("Page fault service time for modified page: %.2lf\n", pfst_modified);
+	printf("Memory Access Time: %.2lf\n", mem_acc_time);
+	printf("Effective Access Time %.2lf\n", eff_acc_time);
+	printf("Modified Page Percentage: %.2lf\n", modified_pg);
+	printf("----------------------------------------------\n");
 	
 	printf("Maximum page fault rate = %lf\n",page_fault_rate);
 		
