@@ -3,9 +3,14 @@ Solution to simulation based assignment for course code CSE316.
 
 # About me
 Name - Aryan Agarwal
+
 Section - K17SM
+
 Reg no. - 11707334
+
 Roll no. - 48
+
+Assigned question - 14,21 
 
 # Program 1 -
 Ques. Write a program to implement priority scheduling algorithm with context switching time. Prompt to user to enter the number of processes and then enter their priority, burst time and arrival time also. Now whenever operating system preempts a process and shifts cpu’s control to some another process of higher priority assume that it takes 2 seconds for context switching (dispatcher latency). Form a scenario, where we can give the processes which are assigned with priority where the lower integer number is higher priority and then context switch .. as the process waits the priority of the process increase at rate of one per 2 time units of wait.
