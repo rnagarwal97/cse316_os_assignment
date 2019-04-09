@@ -1,4 +1,4 @@
-# cse316_os_assignment
+# cse316 Operating System Assignment
 Solution to simulation based assignment for course code CSE316.
 
 # About me
