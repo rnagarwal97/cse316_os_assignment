@@ -1,3 +1,5 @@
+// see readme.md for more details
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -18,7 +20,7 @@ typedef struct process process;
 // search highest priority process
 int h_p(process pr[], int n){
     int i;
-    int hpv = 99999; // fix this
+    int hpv = 99999;
     int hp = -1;
     
     for(i=0; i<n; i++){
